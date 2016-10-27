@@ -1,0 +1,103 @@
+.wrapper {
+	width: 100vw;
+	height: 114vh;
+	background: #282828 url(../img/background.jpg) center no-repeat; 
+}
+
+.main {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo,
+.contact {
+	float: left;
+}
+
+.logo {
+	margin-left: 70px;
+	margin-top: 60px;
+}
+.contact {
+	font-family: Tahoma; 
+	color: #e6e6e6;
+	margin-top: 147px;
+	margin-left: 433px;
+}
+
+h1 {
+	font-size: 11px;
+	line-height: 24px;
+}
+
+h2,
+h3 {
+	font-size: 8px;
+	line-height: 12px;
+}
+
+
+.img1,
+.img2,
+.img3 {
+	float: left;
+	border: 3px solid #7c7c7c;
+}
+
+.img1 {
+	margin-left: 70px;
+}
+
+.img2,
+.img3 {
+	margin-left: 11px;
+}
+
+.txt1,
+.txt2,
+.txt3 {
+	float: left;
+}
+
+.txt1 {
+	display: block;
+	margin-left: 70px;
+	width: 267px;
+	text-align: center;
+}
+
+.txt2,
+.txt3 {
+	display: block;
+	width: 267px;
+	margin-left: 11px;
+	text-align: center;
+}
+
+.txt {
+	margin-top: 2px;
+	margin-bottom: 50px;
+}
+
+p {
+	font-family: Tahoma; 
+	font-size: 15px;
+	color: #e6e6e6;
+}
+
+.footer {
+	margin-top: 180px;
+}
+
+h4 {
+	font-family: Tahoma; 
+	font-size: 10px;
+	color: #e6e6e6;
+	text-align: center;
+}
+
