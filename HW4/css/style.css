@@ -1,0 +1,111 @@
+
+
+.header {
+	height: 173px;
+	background: linear-gradient(#128aa7 27px, #5ef0ff 2px, #12cde2, #ffffff);
+}
+
+
+
+.main {
+	height: 173px;
+	width: 1000px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	-webkit-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	-moz-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+
+}
+
+.logo {
+	float: left;
+	margin-top: 8px;
+    margin-left: 28px;
+}
+
+.contacts {
+	float: right;
+	margin-top: 10px;
+    margin-right: 34px;
+    font-size: 12px;
+    color: #5fa5bb;
+    font-family: tahoma;
+
+}
+
+h1 {
+    line-height: 24px;
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+	line-height: 15px;
+}
+
+.trips {
+	float: right;
+	clear: right;
+}
+
+.trips {
+	width: 367px;
+    margin-top: 29px;
+}
+
+.ic_img {
+	float: left;
+	width: 56px;
+	text-align: center;
+}
+
+.ic_txt {
+	font-size: 10px;
+    color: #5fa5bb;
+    font-family: tahoma;
+}
+
+.ic_text {
+	float: left;
+	display: block;
+	width: 56px;
+	text-align: center;
+
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+
+}
+
+.container {
+	height: 100vh;
+	background: linear-gradient(#40c5d3, #0c739f);
+}
+
+.beach {
+	height: 237px;
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 2px solid #12cde2;
+	-webkit-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	-moz-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+
+}
+
+.main_menu {
+	height: 27px;
+	width: 1000px;
+	background-color: #343434;
+	margin: 0 auto;
+	border-top: 2px solid #12cde2;
+	-webkit-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	-moz-box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+	box-shadow: -1px 3px 63px -10px rgba(23,44,107,1);
+}
+
+
+
+
