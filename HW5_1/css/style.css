@@ -1,0 +1,168 @@
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+body {
+	background-color: #4eabda;
+}
+
+.header {
+	height: 35px;	
+	width: 1215px;
+	margin: 0 auto;
+	background-color: #074e8c;
+
+
+}
+
+.main {
+	margin: 0 auto;
+	background: url(../img/Background.jpg) center no-repeat;
+	height: 1028px;
+	width: 1215px;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+li {
+	float: left;
+	text-align: center;
+	display: block;
+	height: 35px;
+	position: relative;
+	font-size: 14px;
+}
+
+ul {
+	display: block;
+	float: right;
+	clear: right;
+	margin-right: 21px;
+	height: 35px;
+	line-height: 35px;
+	position: relative;
+}
+
+
+a.menu1 {
+	color: #60b5ed;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+
+a.menu2 {
+	color: #fefefe;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 10px;
+	display: block;
+	border-left: 1px solid #60b5ed;
+}
+
+a.menu3 {
+	color: #fefefe;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+
+
+ul>li>a:hover {
+	background-color: #4eabda;
+	color: #fefefe;
+
+}
+
+.menu2>img {
+	  padding-top: 5px;
+    padding-right: 10px;
+    display: block;
+    float: left;
+}
+
+span.topunder {
+	text-decoration: underline;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 214px;
+	
+}
+
+.ctop, .cform  {
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.65);
+	clear: both;
+	height: 612px;
+	width: 560px;
+
+}
+
+.ctop {
+	height: 61px;
+	margin-bottom: 2px;
+}
+
+.ctop>p {
+	text-align: center;
+	font-size: 24px;
+	color: #fefefe;
+	line-height: 61px;
+}
+
+.cformcentr {
+	display: block;
+	width: 276px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div.cformcentr>a {
+	display: block;
+	margin-top: 33px;
+	position: relative;
+}
+
+.OU {
+	display: block;
+	float: left;
+	line-height: 72px;
+	width: 32px;
+	font-size: 14px;
+	color: #999999;
+	text-align: center;
+}
+.oulineclear1 {
+	display: block;
+	position: relative;
+	width: 122px;
+	float: left;
+}
+.oulineclear2 {
+	display: block;
+	position: relative;
+	width: 121px;
+	float: right;
+}
+
+.OU1 {
+	display: block;
+	height: 35px;
+	border-bottom: 1px solid #666666;
+}
+.OU2 {
+	display: block;
+	height: 35px;
+	border-top: 1px solid #000000;
+}
+
