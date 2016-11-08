@@ -1,1 +1,49 @@
+body {
+    background-color: rgb(186, 184, 181);
+}
 
+table {
+    margin: 0 auto;
+}
+
+td {
+    height: 68px;
+    width: 68px;
+    border: 11px solid black;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+tr.small>td {
+    height: 34px;
+    width: 68px;
+}
+
+td.kvdr1 {
+    height: 136px;
+    width: 136px;
+    background-color: #ffef63;
+}
+
+td.kvdr2 {
+    height: 272px;
+    width: 272px;
+    background-color: rgb(209, 52, 24);
+}
+
+td.prmg1 {
+    height: 34px;
+    width: 272px;
+}
+
+td.yellow {
+    background-color: #ffef63;
+}
+
+td.black {
+    background-color: #2b3330;
+}
+
+td.blue {
+    background-color: #064581;
+}
