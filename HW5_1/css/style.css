@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .clearfix:after {
 	content: '';
 	clear: both;
@@ -35,6 +46,7 @@ li {
 	height: 35px;
 	position: relative;
 	font-size: 14px;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 ul {
@@ -117,12 +129,12 @@ span.topunder {
 	font-size: 24px;
 	color: #fefefe;
 	line-height: 61px;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 .cformcentr {
 	display: block;
 	width: 286px;
-/*	height: 80%;*/
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -142,6 +154,7 @@ div.cformcentr>a {
 	font-size: 14px;
 	color: #999999;
 	text-align: center;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 .oulineclear1 {
 	display: block;
@@ -184,6 +197,7 @@ input[type=password] {
 	font-size: 14px;
 	color: #b0afac;
 	margin-left: 5px;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 input[type=text]:hover {
@@ -217,6 +231,7 @@ input[type=password]:active {
 label>span {
 	font-size: 14px;
 	color: #b0afac;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 .submitbut {
@@ -235,6 +250,7 @@ input[type=submit] {
   cursor: pointer;
   border-radius: 5px;
   color: #ffffff; 
+  font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 .footer {
@@ -246,6 +262,7 @@ input[type=submit] {
 	font-size: 11px;
 	color: #b0afac;
 	line-height: 15px;
+	font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
 
