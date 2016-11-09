@@ -13,7 +13,9 @@
 }
 
 body {
-    background-color: #4eabda;
+    background: url(../img/Background.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header {
@@ -25,7 +27,7 @@ body {
 
 .main {
     margin: 0 auto;
-    background: url(../img/Background.jpg) center no-repeat;
+    /*background: url(../img/Background.jpg) center no-repeat;*/
     height: 1028px;
     width: 1215px;
     position: relative;
@@ -240,6 +242,7 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 5px;
     color: #ffffff;
+    font-size: 14px;
     font-family: 'HelveticaNeueRegular', Arial, sans-serif;
 }
 
