@@ -17,6 +17,11 @@ td {
     /*cellspacing="0"*/
 }
 
+td.hidden {
+  /*empty-cells: hide;*/
+  display: none;
+}
+
 tr.small>td {
     height: 34px;
     width: 68px;
@@ -49,8 +54,4 @@ td.black {
 
 td.blue {
     background-color: #064581;
-}
-td.hidden {
-  /*empty-cells: hide;*/
-  display: none;
 }
