@@ -461,7 +461,7 @@ form>div {
 .butt>button {
     width: 80px;
     height: 25px;
-    margin-top: 12px;
+    margin-top: 20px;
     border: 1px solid #a7abad;
     -moz-border-radius: 11px / 13px;
     -webkit-bordewidth: 80px;
@@ -522,6 +522,7 @@ figure>p>span {
     font-weight: bold;
     font-style: italic;
     line-height: 20px;
+    padding-left: 4px;
 }
 
 .uah {
