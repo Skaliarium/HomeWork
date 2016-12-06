@@ -1,0 +1,85 @@
+/*Хеадер/
+логотип/главное меню*/
+
+@media (max-width: 768px) {
+
+  .center {
+    width: 768px;
+  }
+
+  .logo {
+    float: none;
+    margin-left: 10px;
+    width: 26%;
+  }
+  .shape6 {
+  margin-left: 27px;
+  }
+
+  .mainmenu {
+    float: none;
+      margin-top: 20px;
+      margin-left: 10px;
+      width: 84%;
+  }
+
+  /*БЛОК с айфоном*/
+
+  .promout {
+    margin-top: 95px;
+  }
+
+  .article1 {
+    width: 273px;
+
+  }
+
+  .article1>h1 {
+    font-size: 48px;
+
+  }
+  .article1>h2 {
+    font-size: 21px;
+  }
+  .article1>p>span {
+    font-size: 14px;
+  }
+
+
+  /*Радо батон1*/
+
+  form {
+  margin-left: 500px;
+  }
+
+  /*Статьи Цент*/
+
+  .set,
+  .chat,
+  .melody {
+    width: 30%;
+  }
+
+  .set>div,
+  .chat>div,
+  .melody>div {
+    width: 75%;
+  }
+
+  h3 {
+  font-size: 23px;
+  }
+
+  .set>div>span,
+  .chat>div>span,
+  .melody>div>span {
+      font-size: 14px;
+  }
+
+  a.read {
+  font-size: 16px;
+  }
+
+
+
+}
