@@ -1,8 +1,8 @@
-/*Хеадер/
-логотип/главное меню*/
+
 
 @media (max-width: 768px) {
-
+  /*Хеадер/
+  логотип/главное меню*/
   .center {
     width: 768px;
   }
@@ -30,7 +30,7 @@
   }
 
   .article1 {
-    width: 273px;
+    width: 35%;
 
   }
 
@@ -57,7 +57,7 @@
   .set,
   .chat,
   .melody {
-    width: 30%;
+    width: 28%;
   }
 
   .set>div,
@@ -80,6 +80,544 @@
   font-size: 16px;
   }
 
+/*Центральный БЛОК PINGBULLER*/
+
+.message>span {
+  font-size: 14px;
+  width: 248px;
+
+}
+
+  .message {
+    width: 312px;
+    height: 295px;
+  }
+
+  .updates {
+
+  }
+
+  .message>div>h4 {
+  font-size: 30px;
+  }
+
+  .message>div {
+    padding-top: 31px;
+  padding-left: 41px;
+  }
+
+  ul.upmenu>li>a {
+  font-size: 14px;
+
+  }
+
+  ul.upmenu>li>p {
+        font-size: 14px;
+  }
+  .read2 {
+  font-size: 16px;
+  }
+
+  li.upmenu_ico1>p::after {
+    content: none;
+
+  }
+
+  li.upmenu_ico2>p::after {
+    content: none;
+
+  }
+
+  li.upmenu_ico3>p::after {
+    content: none;
+
+  }
+
+  /*Радо батон2*/
+
+  .form2>form {
+  margin-left: 131px;
+  }
+
+/*Раздел downarticle*/
+
+  .downarticle {
+      display: none;
+    }
+
+.downarticle2 {
+  display: block;
+    width: 100%;
+    height: 395px;
+    background: #ececec;
+    border-top: 2px solid #d8d8d8;
+}
+
+.news1,
+.news2,
+.news3 {
+  float: left;
+  width: 30%;
+  height: 210px;
+  margin-top: 5px;
+  margin-left: 2%;
+}
+
+.news1>div,
+.news2>div,
+.news3>div {
+  float: left;;
+  width: 88%;
+}
+
+.news1>div>span,
+.news2>div>span,
+.news3>div>span {
+    display: block;
+    margin-top: 10px;
+margin-left: 1px;
+    color: #787878;
+    font-family: 'open_sanslight', Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.mainmenu_footer {
+  float: none;
+  margin-top: 0;
+  padding-top: 31px;
+}
+
+.designed {
+float: none;
+margin-left: 74%;
+margin-top: 22px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+
+  /*Хеадер/
+  логотип/главное меню*/
+
+  .logo {
+    float: none;;
+        margin-left: 30%;
+        width: 41%;
+  }
+
+  .shape6 {
+  margin-left: 17.5%;
+  }
+
+  .mainmenu {
+position: absolute;
+margin-top: 32px;
+margin-left: 71px;
+      width: 253px;
+height: 268px;
+opacity: .9;
+border: 1px solid #041016;
+background-color: #35293d;
+border-radius: 8px;
+-moz-box-shadow: 0 3px 5px rgba(0,0,0,.16);
+-webkit-box-shadow: 0 3px 5px rgba(0,0,0,.16);
+box-shadow: 0 3px 5px rgba(0,0,0,.16);
+z-index: 20;
+  }
+  ul.menu {
+      display: block;
+      list-style: none;
+      width: 100%;
+      height: 100%;
+  }
+
+  ul.menu>li {
+      display: block;
+      float: none;
+      position: relative;
+      text-align: center;
+      -moz-box-shadow: inset 0 -1px 0 rgba(105,82,114,.59);
+-webkit-box-shadow: inset 0 -1px 0 rgba(105,82,114,.59);
+box-shadow: inset 0 -1px 0 rgba(105,82,114,.59);
+  }
+  ul.menu>li.menu_item1 {
+      width: 100%;
+      height: 45px;
+      box-sizing: border-box;
+  }
+
+  ul.menu>li.menu_item2 {
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  ul.menu>li.menu_item3 {
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  ul.menu>li.menu_item4 {
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  ul.menu>li.menu_item5 {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  ul.menu>li.menu_item6 {
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  a.menu_link {
+      display: block;
+      line-height: 41px;
+      color: #fff;
+      font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+      font-size: 24px;
+      font-weight: 100;
+      text-decoration: none;
+      text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+  }
+
+  ul.menu>li:hover {
+    background: #2c2332;
+
+  }
+
+  /*БЛОК с айфоном*/
+
+  .arrow2 {
+    margin-left: 93%;
+  }
+
+  .promout {
+    margin-top: 95px;
+  }
+
+  .article1 {
+    width: 48%;
+z-index: 10;
+    padding-top: 20%;
+  }
+
+  .iphone {
+    margin-left: -18%;
+  }
+
+  .article1>h1 {
+    font-size: 36px;
+
+  }
+  .article1>h2 {
+    font-size: 18px;
+  }
+  .article1>p>span {
+    display: none;
+  }
+
+
+  /*Радо батон1*/
+
+  form {
+  margin-left: 500px;
+  }
+
+
+  /*Статьи Цент*/
+
+
+
+  .center {
+    width: 100%;
+  height: 100%;
+  }
+
+  .article {
+    height: 595px;
+    width: 100%;
+  }
+
+  .artwidth {
+    height: 535px;
+    margin-top: 0;
+    padding-top: 60px;
+  }
+
+
+
+  .set,
+  .chat,
+  .melody {
+    width: 90%;
+    float: none;
+        height: 160px;
+  }
+
+  .set>div,
+  .chat>div,
+  .melody>div {
+    width: 85%;
+  }
+
+
+
+/*Центральный БЛОК PINGBULLER*/
+
+  .wrap1 {
+    width: 100%;
+  height: 785px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e6e6e6;
+  }
+
+  .pingbuller {
+    float: none;
+  }
+
+
+
+  .wrap2 {
+    width: 100%;
+  height: 233px;
+  background-color: #f9f9f9;
+  }
+
+  .message {
+    position: relative;
+    margin-top: 0;
+        padding-top: 41px;
+            margin-left: 36px;
+    width: 86%;
+    height: 295px;
+    background: url(../img/pingbullerbg.png) center no-repeat;
+  }
+
+  .pingbuller {
+    float: none;
+  }
+
+  .updates {
+    margin-left: 17%;
+width: 68%;
+  }
+
+  .message>span {
+    color: #454545;
+    font-family: 'open_sanslight', Arial, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 0 #fff;
+    display: block;
+    width: 86%;
+  padding-left: 41px;
+  padding-top: 0px;
+  }
+
+  .message>div>h4 {
+    color: #454545;
+  font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+  font-size: 30px;
+  text-shadow: 0 1px 0 #fff;
+  }
+
+  .message>div {
+    padding-top: 31px;
+  padding-left: 41px;
+  }
+
+  .message>div>h4>span {
+    color: #edbfff;
+  }
+
+  .updatesicon1 {
+    position: absolute;
+    margin-top: 67px;
+      margin-left: 13px;
+    width: 48px;
+    height: 48px;
+    background: url(../img/updatesicon.png) 0 0 no-repeat;
+    z-index: 10;
+  }
+
+
+.form2>form {
+  margin-left: 190px;
+}
+
+
+.updatesmenu {
+  margin-top: 20px;
+margin-left: 62px;
+}
+
+.recent {
+  margin-top: 68px;
+    margin-left: -4px;
+}
+
+.updatesicon2 {
+  margin-top: 115px;
+}
+
+.updatesicon3 {
+  margin-top: 179px;
+}
+.updatesicon4 {
+  margin-top: 244px;
+}
+
+.logo1 {
+  margin-left: 13%;
+}
+
+.logo2 {
+  margin-left: 13%;
+}
+
+.logo3 {
+  margin-left: 13%;
+}
+
+.logo4 {
+  margin-left: 13%;
+}
+
+.logo5 {
+  margin-left: 10%;
+}
+
+.logo6 {
+  margin-left: 6%;
+}
+
+
+/*Раздел downarticle*/
+
+
+.downarticle {
+    display: none;
+  }
+
+.downarticle2 {
+  width: 100%;
+  height: 667px;
+}
+
+.news1,
+.news2,
+.news3 {
+float: none;
+width: 90%;
+    height: 171px;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.news1>div,
+.news2>div,
+.news3>div {
+float: none;
+width: 88%;
+}
+
+/*Раздел Футер*/
+
+.mainmenu_footer {
+float: none;
+margin-top: 0;
+padding-top: 31px;
+  width: 100%;
+}
+
+.mainmenu_footer>ul.menu {
+    display: block;
+    list-style: none;
+    width: 100%;
+    float: right;;
+}
+
+.mainmenu_footer>ul.menu>li {
+    display: block;
+    float: left;
+    position: relative;
+    height: 26px;
+    text-align: center;
+    -moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.mainmenu_footer>ul.menu>li.menu_item1 {
+    width: 7.4%;
+    margin-left: 3%;
+}
+
+.mainmenu_footer>ul.menu>li.menu_item2 {
+  width: 7.8%;
+  margin-left: 4%;
+}
+
+.mainmenu_footer>ul.menu>li.menu_item3 {
+  width: 7.5%;
+  margin-left: 4%;
+}
+
+.mainmenu_footer>ul.menu>li.menu_item4 {
+  width: 13%;
+      margin-left: 4%;
+}
+
+.mainmenu_footer>ul.menu>li.menu_item5 {
+  width: 18%;
+  margin-left: 4%;
+}
+
+.mainmenu_footer>ul.menu>li.menu_item6 {
+  width: 22%;
+  margin-left: 4%;
+}
+
+.mainmenu_footer a.menu_link {
+    display: block;
+    line-height: 20px;
+    color: #fff;
+    font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.4);
+}
+
+.mainmenu_footer>ul.menu>li:hover {
+  border-bottom: 2px solid #edbfff;
+  background: none;
+}
+
+.designed {
+float: none;
+margin-left: 35%;
+margin-top: 12px;
+}
 
 
 }
