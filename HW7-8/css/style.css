@@ -34,8 +34,8 @@
 
 @font-face {
     font-family: 'open_sansextrabold';
-    src: url('opensans-extrabold-webfont.eot');
-    src: url('opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-extrabold-webfont.woff2') format('woff2'), url('opensans-extrabold-webfont.woff') format('woff'), url('opensans-extrabold-webfont.ttf') format('truetype');
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-extrabold-webfont.woff2') format('woff2'), url('../fonts/opensans-extrabold-webfont.woff') format('woff'), url('../fonts/opensans-extrabold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,7 +54,7 @@
 .center {
     position: relative;
     margin: 0 auto;
-    width: 960px;
+    width: 90%;
 }
 
 .shape6 {
@@ -66,7 +66,7 @@
 .logo {
     display: block;
     float: left;
-    width: 19%;
+    width: 25%;
     color: #fff;
     font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
     font-size: 48px;
@@ -87,7 +87,7 @@
 
 .mainmenu {
     float: right;
-    width: 67%;
+    width: 75%;
     margin-top: 8px;
 }
 
@@ -96,7 +96,6 @@ ul.menu {
     list-style: none;
     width: 100%;
     float: right;
-    ;
 }
 
 ul.menu>li {
@@ -161,9 +160,9 @@ ul.menu>li:hover {
 
 .iphone {
     position: relative;
-    float: left;
+    float: right;
     /*margin-top: 458px;*/
-    margin-left: 10%;
+    margin-right: 3%;
 }
 
 .article1 {
@@ -218,7 +217,7 @@ ul.menu>li:hover {
     display: block;
     position: absolute;
     margin-top: 458px;
-    margin-left: 97%;
+    margin-left: 95%;
     height: 39px;
     width: 29px;
 }
@@ -246,7 +245,7 @@ form {
     width: 100px;
     height: 20px;
     margin-top: 74px;
-    margin-left: 828px;
+    margin-left: 70%;
 }
 
 input[type=radio] {
@@ -325,7 +324,7 @@ input[type="radio"]:checked+label span {
 
 .set>div, .chat>div, .melody>div {
     float: right;
-    width: 225px;
+    width: 80%;
 }
 
 h3 {
@@ -386,21 +385,24 @@ a.read:hover {
 
 .message {
     position: relative;
-    margin-top: 98px;
-    margin-left: 22px;
-    width: 430px;
-    height: 295px;
-    background: url(../img/pingbullerbg.png) center no-repeat;
+    padding-top: 12%;
+    margin-left: 3%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
 }
 
 .pingbuller {
     float: left;
+    width: 42%;
+    margin-top: 5%;
+    margin-left: 3%;
 }
 
 .updates {
     float: left;
-    margin-left: 5%;
-    width: 46%;
+    margin-left: 6%;
+    width: 48%;
 }
 
 .message>span {
@@ -412,9 +414,10 @@ a.read:hover {
     letter-spacing: 0.5px;
     text-shadow: 0 1px 0 #fff;
     display: block;
-    width: 356px;
-    padding-left: 41px;
-    padding-top: 11px;
+    width: 84%;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 .message>div>h4 {
@@ -425,7 +428,7 @@ a.read:hover {
 }
 
 .message>div {
-    padding-top: 31px;
+    /*padding-top: 31px;*/
     padding-left: 41px;
 }
 
@@ -435,8 +438,8 @@ a.read:hover {
 
 .updatesicon1 {
     position: absolute;
-    margin-top: 118px;
-    margin-left: 1px;
+    margin-top: 5%;
+    margin-left: -2%;
     width: 48px;
     height: 48px;
     background: url(../img/updatesicon.png) 0 0 no-repeat;
@@ -450,8 +453,8 @@ a.read:hover {
     display: block;
     width: 100px;
     height: 20px;
-    margin-top: 1px;
-    margin-left: 192px;
+    margin-top: 7%;
+    margin-left: 38%;
 }
 
 .form2>form>input[type=radio] {
@@ -481,7 +484,7 @@ a.read:hover {
 }
 
 .recent {
-    margin-top: 129px;
+    margin-top: 20%;
     margin-left: -4px;
 }
 
@@ -508,8 +511,8 @@ li.upmenu_ico3>p::after {
     background: url(../img/updatesicon.png) 0 -61px no-repeat;
     width: 48px;
     height: 48px;
-    margin-top: 176px;
-    margin-left: -3px;
+    margin-top: 14%;
+    margin-left: -1%;
 }
 
 .updatesicon3 {
@@ -518,8 +521,8 @@ li.upmenu_ico3>p::after {
     background: url(../img/updatesicon.png) 0 -118px no-repeat;
     width: 48px;
     height: 48px;
-    margin-top: 242px;
-    margin-left: -3px;
+    margin-top: 20%;
+    margin-left: -1%;
 }
 
 .updatesicon4 {
@@ -528,8 +531,8 @@ li.upmenu_ico3>p::after {
     background: url(../img/updatesicon.png) 0 -173px no-repeat;
     width: 48px;
     height: 48px;
-    margin-top: 307px;
-    margin-left: -3px;
+    margin-top: 26%;
+    margin-left: -1%;
 }
 
 .recent>h5 {

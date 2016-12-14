@@ -1,13 +1,13 @@
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     /*Хеадер/
   логотип/главное меню*/
     .center {
-        width: 768px;
+        width: 100%;
     }
     .logo {
         float: none;
         margin-left: 10px;
-        width: 26%;
+        width: 35%;
     }
     .shape6 {
         margin-left: 27px;
@@ -16,7 +16,7 @@
         float: none;
         margin-top: 20px;
         margin-left: 10px;
-        width: 84%;
+        width: 95%;
     }
     /*БЛОК с айфоном*/
     .promout {
@@ -63,12 +63,14 @@
         width: 312px;
         height: 295px;
     }
-    .updates {}
+    .updates {
+      width: 39%;
+    }
     .message>div>h4 {
         font-size: 30px;
     }
     .message>div {
-        padding-top: 31px;
+        padding-top: 0px;
         padding-left: 41px;
     }
     ul.upmenu>li>a {
@@ -76,6 +78,7 @@
     }
     ul.upmenu>li>p {
         font-size: 14px;
+        line-height: 15px;
     }
     .read2 {
         font-size: 16px;
@@ -140,7 +143,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     /*Хеадер/
   логотип/главное меню*/
     .logo {
@@ -154,8 +157,8 @@
     }
     .mainmenu {
         position: absolute;
-        margin-top: 32px;
-        margin-left: 71px;
+        margin-top: 8%;
+        margin-left: 23%;
         width: 253px;
         height: 268px;
         opacity: .9;
@@ -256,7 +259,7 @@
     }
     /*Радо батон1*/
     form {
-        margin-left: 500px;
+        margin-left: 36%;
     }
     /*Статьи Цент*/
     .center {
@@ -266,6 +269,7 @@
     .article {
         height: 595px;
         width: 100%;
+        overflow: hidden;
     }
     .artwidth {
         height: 535px;
@@ -276,6 +280,7 @@
         width: 90%;
         float: none;
         height: 160px;
+            margin-left: 0%;
     }
     .set>div, .chat>div, .melody>div {
         width: 85%;
@@ -296,20 +301,25 @@
         background-color: #f9f9f9;
     }
     .message {
-        position: relative;
-        margin-top: 0;
-        padding-top: 41px;
-        margin-left: 36px;
-        width: 86%;
-        height: 295px;
-        background: url(../img/pingbullerbg.png) center no-repeat;
+      position: relative;
+      margin-top: 12%;
+      margin-left: 3%;
+      width: 80%;
+      height: 100%;
+      background: #fff;
     }
+
     .pingbuller {
         float: none;
+        overflow: hidden;
+        width: 76%;
+        margin-left: 15%;
+        margin-top: 0%;
+
     }
     .updates {
         margin-left: 17%;
-        width: 68%;
+        width: 55%;
     }
     .message>span {
         color: #454545;
@@ -320,10 +330,12 @@
         letter-spacing: 0.5px;
         text-shadow: 0 1px 0 #fff;
         display: block;
-        width: 86%;
-        padding-left: 41px;
-        padding-top: 0px;
+        width: 84%;
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 5%;
     }
+
     .message>div>h4 {
         color: #454545;
         font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
@@ -331,21 +343,19 @@
         text-shadow: 0 1px 0 #fff;
     }
     .message>div {
-        padding-top: 31px;
+        /*padding-top: 31px;*/
         padding-left: 41px;
     }
     .message>div>h4>span {
         color: #edbfff;
     }
+
     .updatesicon1 {
         position: absolute;
-        margin-top: 67px;
-        margin-left: 13px;
-        width: 48px;
-        height: 48px;
-        background: url(../img/updatesicon.png) 0 0 no-repeat;
-        z-index: 10;
-    }
+        margin-top: 17%;
+        margin-left: -2%;
+      }
+
     .form2>form {
         margin-left: 190px;
     }
@@ -358,13 +368,13 @@
         margin-left: -4px;
     }
     .updatesicon2 {
-        margin-top: 115px;
+        margin-top: 17%;
     }
     .updatesicon3 {
-        margin-top: 179px;
+        margin-top: 25%;
     }
     .updatesicon4 {
-        margin-top: 244px;
+        margin-top: 33%;
     }
     .logo1 {
         margin-left: 13%;
@@ -472,7 +482,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .logo {
         margin-left: 25%;
         width: 50%;
@@ -530,8 +540,9 @@
         margin-top: -7px;
     }
     .pingbuller {
-        overflow: hidden;
-    }
+    width: 84%;
+    margin-left: 5%;
+}
     .message {
         display: none;
     }
@@ -579,10 +590,30 @@
         margin-top: 20px;
         margin-left: 122px;
     }
+
+
     .updates {
-        margin-left: 7%;
-        width: 91%;
+        margin-left: 20%;
+        width: 63%;
     }
+
+  ul.upmenu>li>p {
+        line-height: 15px;
+
+  }
+
+  .updatesicon2 {
+      margin-top: 36%;
+
+  }
+  .updatesicon3 {
+    margin-top: 61%;
+}
+
+.updatesicon4 {
+    margin-top: 87%;
+}
+
     .read2 {
         margin-right: 0px;
     }
