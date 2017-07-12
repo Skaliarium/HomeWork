@@ -1,0 +1,25 @@
+
+.timer {
+  text-align: center;
+  font-size: 100px;
+  background: bisque;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.col-md-3 > .btn {
+  font-size: 40px;
+  padding: 8px 80px;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.timer > span {
+  font-size: 60px;
+}
