@@ -1,0 +1,28 @@
+
+
+body .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.wrapper {
+  background: rgba(128, 128, 128, 0.19);
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 2px solid blue;
+}
+
+
+.active > a {
+  color: white;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.in-active {
+  display: block;
+}
