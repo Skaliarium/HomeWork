@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="js/jquery.js"></script> -->
+  <script src="js/tmpl.js"></script>
+  <link  href="css/jquery.modalimg.css" rel="stylesheet">
+  <script src="js/jquery.modalimg.js"></script>
+  <script src="js/script.js" ></script>
+
+</head>
+<body>
+
+<div>
+  <a class="modalimg" href="img/images2.jpg">
+    <img class="simple" src="img/images1.jpeg" alt="big tiger">
+  </a>
+
+  <script type="text/html" id="item_tmpl">
+    <% for ( var i = 0; i < data.length; i++ )  { %>
+      <h1><%=data[i].title%></h1>
+      <p><%=data[i].content%></p>
+
+      <% } %>
+
+
+  </script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

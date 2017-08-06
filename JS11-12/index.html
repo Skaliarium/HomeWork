@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="js/jquery.js"></script> -->
+  <script src="js/tmpl.js"></script>
+  <link  href="css/jquery.modalimg.css" rel="stylesheet">
+  <script src="js/jquery.modalimg.js"></script>
+  <script src="js/script.js" ></script>
+
+</head>
+<body>
+
+<div class="row">
+  <a class="modalimg" href="img/images2.jpg">
+    <img class="simple" src="img/images1.jpeg" alt="big tiger">
+  </a>
+
+<br></br>
+  <script type="text/html" id="item_tmpl">
+    <div class="row"></div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="content">
+    <% for ( var i = 0; i < data.length; i++ )  { %>
+      <h1><%=data[i].title%></h1>
+      <p><%=data[i].content%></p>
+
+      <% } %>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+</div>
+
+  </script>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+<div class="carousel-arrow-left"><span>Влево</span></div>
+<div class="carousel-hider">
+  <ul class="carousel-list">
+   <li class="carousel-element"><img src="img/imgc1.jpg"><p>Описание 1</p></li>
+   <li class="carousel-element"><img src="img/imgc2.jpg"><p>Описание 2</p></li>
+   <li class="carousel-element"><img src="img/imgc3.jpg"><p>Описание 3</p></li>
+   <li class="carousel-element"><img src="img/imgc4.jpg"><p>Описание 4</p></li>
+   <li class="carousel-element"><img src="img/imgc5.jpg"><p>Описание 5</p></li>
+   <li class="carousel-element"><img src="img/imgc6.jpg"><p>Описание 6</p></li>
+   <li class="carousel-element"><img src="img/imgc7.jpg"><p>Описание 7</p></li>
+   <li class="carousel-element"><img src="img/imgc8.jpg"><p>Описание 8</p></li>
+ </ul>
+</div>
+<div class="carousel-arrow-right"><span>Вправо</span></div>
+</div>
+<div class="col-md-1"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
